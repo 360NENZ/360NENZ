@@ -70,7 +70,7 @@ jobs:
           #plugin_lines_history_limit: 1
           #plugin_lines_repositories_limit: 4
           #plugin_lines_sections: base
-          repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner, collaborator  #, organization_member
           #repositories_batch: 200
           #repositories_forks: yes
 
