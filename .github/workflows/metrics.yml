@@ -27,7 +27,7 @@ jobs:
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN_FINE }}
+          token: ${{ secrets.METRICS_TOKEN }}
           
           filename: general.svg
           output_action: gist
@@ -78,7 +78,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: people.svg
-          token: ${{ secrets.METRICS_TOKEN_FINE }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           output_action: gist
           committer_gist: fb75b98207af1286b655aa2ef1ef2386
@@ -92,7 +92,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: activity.svg
-          token: ${{ secrets.METRICS_TOKEN_FINE }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           output_action: gist
           committer_gist: fb75b98207af1286b655aa2ef1ef2386
@@ -109,7 +109,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: language.svg
-          token: ${{ secrets.METRICS_TOKEN_FINE }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           output_action: gist
           committer_gist: fb75b98207af1286b655aa2ef1ef2386
@@ -130,7 +130,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: star.svg
-          token: ${{ secrets.METRICS_TOKEN_FINE }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           output_action: gist
           committer_gist: fb75b98207af1286b655aa2ef1ef2386
