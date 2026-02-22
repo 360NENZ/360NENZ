@@ -37,47 +37,51 @@ jobs:
           user: 360NENZ
           template: classic
           base: header, activity, community, repositories, metadata
-          #base_indepth: yes
+          base_indepth: yes
           commits_authoring: 360NENZ, gdgwhy@outlook.com, 2831218066@qq.com, i@360nenz.top, 51311642+360NENZ@users.noreply.github.com, 12966440-360NENZ@users.noreply.gitlab.com
           config_timezone: Asia/Shanghai
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
+
+          # Code Habits return "Unexpected error", disabled
+          #plugin_habits: yes
+          #plugin_habits_charts_type: classic
+          #plugin_habits_days: 14
+          #plugin_habits_facts: yes
+          #plugin_habits_from: 200
+          #plugin_habits_languages_limit: 8
+          #plugin_habits_languages_threshold: 0%
+
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          repositories_affiliations: owner, collaborator
-          repositories_batch: 200
+          repositories_affiliations: ""
+          #repositories_batch: 200
           repositories_forks: yes
 
-      - name: Metrics workflow form ZianTT (Test)
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: from_ziantt.svg
-          output_action: gist
-          committer_gist: fb75b98207af1286b655aa2ef1ef2386
-          user: 360NENZ
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Shanghai
-          plugin_introduction: yes
-          plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_details: lines, percentage
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
-          repositories_affiliations: collaborator
-          commits_authoring: 360NENZ, gdgwhy@outlook.com, 2831218066@qq.com, i@360nenz.top, 51311642+360NENZ@users.noreply.github.com, 12966440-360NENZ@users.noreply.gitlab.com
-          plugin_habits: yes
-          plugin_habits_facts: yes
+# Test completed, disabled
+#      - name: Metrics workflow form ZianTT (Test)
+#        uses: lowlighter/metrics@latest
+#        with:
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          filename: from_ziantt.svg
+#          output_action: gist
+#          committer_gist: fb75b98207af1286b655aa2ef1ef2386
+#          user: 360NENZ
+#          base: header, activity, community, repositories, metadata
+#          config_timezone: Asia/Shanghai
+#          plugin_introduction: yes
+#          plugin_languages: yes
+#          plugin_languages_colors: github
+#          plugin_languages_limit: 8
+#          plugin_languages_details: lines, percentage
+#          plugin_languages_indepth: yes
+#          plugin_languages_analysis_timeout: 30
+#          repositories_affiliations: collaborator
+#          commits_authoring: 360NENZ, gdgwhy@outlook.com, 2831218066@qq.com, i@360nenz.top, 51311642+360NENZ@users.noreply.github.com, 12966440-360NENZ@users.noreply.gitlab.com
+#          plugin_habits: yes
+#          plugin_habits_facts: yes
 
 # Achievement return "Unexpected error", disabled
 #      - name: Achievements
@@ -159,7 +163,9 @@ jobs:
           committer_gist: fb75b98207af1286b655aa2ef1ef2386
           plugin_stars: yes
           plugin_stars_limit: 4
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars
+
+          # Starred topics return empty, disabled
+          #plugin_topics: yes
+          #plugin_topics_limit: 15
+          #plugin_topics_mode: starred
+          #plugin_topics_sort: stars
