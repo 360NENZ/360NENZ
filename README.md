@@ -1,11 +1,12 @@
-<!--Cs_Inazuma_AQ202004_ResistanceCharge-->
-<!--「总会有地上的生灵，敢于直面雷霆的威光」-->
-<!--"There will always be those who dare to brave the lightning's glow"-->
+# 项目状态更新
 
-_「总会有地上的 **360NENZ**，敢于直面**miHoYo/HoYoVerse/COGNOSPHERE PTE. LTD.** 的 **DMCA**」  
-"There will always be **360NENZ** who dare to brave the **miHoYo/HoYoVerse/COGNOSPHERE PTE. LTD.**'s **DMCA**"_ 
+本人于 2026 年 7 月 30 日收到上海贯道律师事务所代表米哈游公司发出的律师函。  
+为遵守相关法律要求，并本着负责任的态度，本人已决定**移除相关仓库的全部代码与提交历史**。  
+相关仓库目前仅保留此说明文件。
 
-□□□□，□□《□□》□□□□□□□□□□□□□□□□□□□□□□□□。□□□□□□□□□□「□□□」□□□□□，□□□，□□□□□□□□□□「□□□」，□□□□□□。□□□□□□□□「□□□」□□□□□，□□□□□□□□□□□□□、□□□□□□□□，□□□□□□□□□，□□□□□□□——□□，□□□□「□□」□□□
+感谢各位过往的关注与支持。这个账号将回归纯粹的个人学习与技术分享，不再涉及任何游戏逆向、解包或非官方服务器相关内容。
+
+---
 
 _**May this journey lead us starward.**_
 
